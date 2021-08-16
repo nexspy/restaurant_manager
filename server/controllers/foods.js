@@ -12,23 +12,23 @@ export const getFoods = async (req, res) => {
             {
                 'id': '12312e1w32132',
                 'name': 'Buff Momo',
-                'category': 'momo',
+                'category': 'continental',
                 'subcategory': 'chinese',
                 'veg': false,
-                'price': '100',
+                'price': 100,
                 'currency': 'NPR',
-                'currency_title': 'Rs.',
+                'currency_title': 'Rs',
                 'image': ''
             },
             {
                 'id': '1235435w12wsrqw',
                 'name': 'Veg Momo',
-                'category': 'momo',
+                'category': 'continental',
                 'subcategory': 'chinese',
                 'veg': true,
                 'price': '80',
                 'currency': 'NPR',
-                'currency_title': 'Rs.',
+                'currency_title': 'Rs',
                 'image': ''
             }
         ];
