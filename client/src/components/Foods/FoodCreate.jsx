@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import { getFoodCategoriesData, getFoodSubCategoriesData } from './FoodCategoriesData.js';
 
 import Header from '../Common/Header/Header';
@@ -54,6 +54,10 @@ const FoodCreate = () => {
 
             <div className="container">
                 <h2>Create Food Form</h2>
+
+                <Link to={`/food`}>
+                    Back
+                </Link>
 
                 <form onSubmit={handleSubmit}>
                     <input type="text" value={name} onChange={handleName} />

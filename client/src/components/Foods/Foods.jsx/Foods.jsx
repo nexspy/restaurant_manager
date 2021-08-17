@@ -20,7 +20,7 @@ const Foods = () => {
                 <div className="container">
                     <h2>Foods Manage Page</h2>
 
-                    <Link to={`/food/create`}>
+                    <Link to={`/food/create`} className="menu-item">
                         Create Food
                     </Link>
 
